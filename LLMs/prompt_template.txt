@@ -1,0 +1,33 @@
+You are a professional translator. Translate the following English TED Talk
+transcript into [LANGUAGE].
+
+The transcript is in SRT subtitle format. Each cue block consists of:
+  1. a cue number
+  2. a timestamp line (HH:MM:SS,mmm --> HH:MM:SS,mmm)
+  3. one or more lines of text
+
+Rules:
+- Preserve every cue number exactly as it appears
+- Preserve every timestamp line exactly as it appears
+- Translate only the text lines of each cue
+- Return the full translated transcript in the same SRT format
+- Where appropriate, choose informal, colloquial terms over formal or academic ones.
+- Choose modern terms and phrases over traditional ones. Translators should be well-versed in the topics covered.
+- Strive to match the tone and flow of the speaker's original talk. Rather than produce a word-for-word translation, aim to find the color, energy and "poetry" in the speaker's organic style and try to emulate it.
+- Choose words and phrases that are most universally understood among all dialects.
+- Instead of a word-for-word translation, try finding a similar expression in the target language. If no equivalent exists, opt for the translation that readers will find least confusing, even if it is less colorful than the original.
+- TED is always written as "TED" and should not be translated.
+- For books, movies, magazines and poems, check if the work has an official translation in your language; if not, don't translate the title.
+- If the target language uses a non-Latin alphabet, transliterate people's names. For places, use the name that is most common in your language. Otherwise, transliterate.
+- Use the target language's native punctuation.
+- Use standard unicode characters and avoid those that are platform-specific.
+- You may convert units of measurement to make them more understandable to viewers in your language.
+- Translate the full text without omitting or adding anything
+- Preserve all stage directions in parentheses, e.g. (Laughter), (Applause)
+  — translate them into [LANGUAGE] as well
+- Do not translate proper names (people, places, organizations)
+- Do not add any commentary, introduction, or explanation
+- Return only the translated SRT text
+
+Transcript:
+[TRANSCRIPT]
