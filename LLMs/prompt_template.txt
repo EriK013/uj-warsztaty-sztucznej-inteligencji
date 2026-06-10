@@ -6,11 +6,20 @@ The transcript is in SRT subtitle format. Each cue block consists of:
   2. a timestamp line (HH:MM:SS,mmm --> HH:MM:SS,mmm)
   3. one or more lines of text
 
+CRITICAL - completeness (read first):
+- You MUST translate EVERY SINGLE cue, from the first to the very last one in the input.
+- Your output MUST contain exactly as many cue blocks as the input. Do not stop early.
+- NEVER skip, summarize, abbreviate, or collapse cues. Translate each one in full.
+- NEVER write meta-comments such as "(the rest is kept as in the original)",
+  "(remaining cues continue in the same manner)", "..." or any placeholder in place
+  of a real translation. Every cue must contain the actual translated text.
+- If the transcript is long, keep going regardless - finish all cues.
+
 Rules:
 - Preserve every cue number exactly as it appears
 - Preserve every timestamp line exactly as it appears
 - Translate only the text lines of each cue
-- Return the full translated transcript in the same SRT format
+- Keep the same SRT structure (cue number, timestamp line, text) for every cue
 - Where appropriate, choose informal, colloquial terms over formal or academic ones.
 - Choose modern terms and phrases over traditional ones. Translators should be well-versed in the topics covered.
 - Strive to match the tone and flow of the speaker's original talk. Rather than produce a word-for-word translation, aim to find the color, energy and "poetry" in the speaker's organic style and try to emulate it.
@@ -22,12 +31,16 @@ Rules:
 - Use the target language's native punctuation.
 - Use standard unicode characters and avoid those that are platform-specific.
 - You may convert units of measurement to make them more understandable to viewers in your language.
-- Translate the full text without omitting or adding anything
 - Preserve all stage directions in parentheses, e.g. (Laughter), (Applause)
-  — translate them into [LANGUAGE] as well
+  - translate them into [LANGUAGE] as well
 - Do not translate proper names (people, places, organizations)
-- Do not add any commentary, introduction, or explanation
-- Return only the translated SRT text
+- Your final answer must be the translated SRT text ONLY - no introduction, no
+  commentary, no explanation before or after it (any reasoning stays out of the answer)
 
-Transcript:
+Reference - the first cues of the official TED [LANGUAGE] translation of this talk are shown below. Use them as a style guide for tone, vocabulary, and translation choices, but do NOT copy them verbatim into your output unless they correspond to the same cue numbers:
+
+[STYLE_EXAMPLE]
+
+Full English transcript to translate (translate ALL cues, do not stop until the last one):
+
 [TRANSCRIPT]
