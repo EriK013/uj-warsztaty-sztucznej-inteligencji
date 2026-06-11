@@ -1,0 +1,77 @@
+{
+  "data_file": {
+    "lang": "fi",
+    "name": {
+      "stem": "fi_ted_data",
+      "suffix": ".csv"
+    }
+  },
+  "columns": [
+    {
+      "name": "id",
+      "description": "Talk slug (ten sam dla danego talku we wszystkich jezykach)",
+      "language_model": null,
+      "cleaned": null
+    },
+    {
+      "name": "available_lang_vers",
+      "description": "Kody wszystkich dostepnych wersji jezykowych talku",
+      "language_model": null,
+      "cleaned": null
+    },
+    {
+      "name": "title",
+      "description": "Tytul TED talku",
+      "language_model": null,
+      "cleaned": null
+    },
+    {
+      "name": "article_revision_id",
+      "description": "Brak odpowiednika dla TED (puste)",
+      "language_model": null,
+      "cleaned": null
+    },
+    {
+      "name": "summary",
+      "description": "Oficjalne tlumaczenie TED (fi) w formacie SRT (referencja)",
+      "language_model": null,
+      "cleaned": null
+    },
+    {
+      "name": "en_source",
+      "description": "Zrodlowa transkrypcja EN w formacie SRT (wejscie do tlumaczenia)",
+      "language_model": null,
+      "cleaned": null
+    },
+    {
+      "name": "prompt",
+      "description": "Prompt uzyty do wygenerowania odpowiedzi modelu",
+      "language_model": null,
+      "cleaned": null
+    },
+    {
+      "name": "qwq",
+      "description": "QwQ-32B response",
+      "language_model": {
+        "name": "Qwen/QwQ-32B",
+        "parameters": {
+          "temperature": 1.0,
+          "top_p": 1.0
+        }
+      },
+      "cleaned": false
+    },
+    {
+      "name": "qwq__cleaned",
+      "description": "QwQ-32B response (cleaned version)",
+      "language_model": {
+        "name": "Qwen/QwQ-32B",
+        "parameters": {
+          "temperature": 1.0,
+          "top_p": 1.0
+        }
+      },
+      "cleaned": true
+    }
+  ]
+}
